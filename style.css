@@ -1,0 +1,165 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dbe5f1;
+    color: #333;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+    gap: 15px;
+    margin-top: 17rem;
+}
+
+
+/* Estilo da área principal */
+.main-content {
+    height: 26.3rem;
+    width: 49rem;
+    background-color: #fff;
+    padding: 1rem;
+    border: o.1rem solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main-content .logo {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font-weight: bold;
+    color: #f444a0;
+}
+
+.main-content .logo span {
+    
+    font-size: 16px;
+    font-weight: normal;
+    color: #555;
+}
+
+.main-content p {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.main-content p strong {
+    color: #f444a0;
+}
+
+/* Estilo dos quadrados à direita */
+.side-content {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box {
+    background-color: #E7EFFA;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid white;}
+
+/* Quadrado superior (login) */
+.login-box h2 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-box label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.login-box input {
+    
+       
+        margin-bottom: 10px; 
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        padding: 6px; 
+        margin: 3px; 
+    
+}
+
+.login-box .checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.login-box .checkbox label {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.login-box button {
+    padding: 10px;
+    background-color: #f444a0;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.login-box button:hover {
+    background-color: #d63e8e;
+}
+
+.login-box a {
+    color: #0073e6;
+   
+    font-size: 12px;
+}
+
+.login-box a:hover {
+    text-decoration: underline;
+}
+
+/* Quadrado inferior (informações adicionais) */
+.info-box p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.info-box a {
+    color: #0073e6;
+    
+    font-weight: bold;
+}
+
+.info-box a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #BCCDEB;
+    width: 65.3rem;
+    margin: 0 0 0 1.2rem;
+   
+}
+
+.footer a {
+    color: #0073e6;
+   
+  
+}
